@@ -5,10 +5,12 @@ import Navbar from "../Navbar/Navbar";
 const Root = () => {
   return (
     <div className="container mx-auto">
-      <Header />
-      <Navbar />
-      <Outlet />
-      <h1>Footer</h1>
+      <div className="px-4">
+        <Header />
+        <Navbar />
+        <Outlet />
+        <h1>Footer</h1>
+      </div>
     </div>
   );
 };
